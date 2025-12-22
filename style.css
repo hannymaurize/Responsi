@@ -1,0 +1,82 @@
+:root {
+  --green-main: #2E7D32;
+  --green-soft: #81C784;
+  --bg-soft: #F4F7F6;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-soft);
+  padding-top: 80px;
+  line-height: 1.8;
+}
+
+.navbar {
+  background: linear-gradient(90deg, var(--green-main), var(--green-soft));
+}
+
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('cover.jpeg');
+  background-size: cover;
+  padding: 130px 20px;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.section {
+  margin-top: 80px;
+}
+
+.section h2 {
+  color: var(--green-main);
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+#map {
+  height: 460px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.info-box {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+table thead {
+  background: var(--green-main);
+  color: white;
+}
+
+footer {
+  margin-top: 90px;
+  background: linear-gradient(90deg, var(--green-main), var(--green-soft));
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
